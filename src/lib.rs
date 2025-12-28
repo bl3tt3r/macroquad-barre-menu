@@ -81,7 +81,7 @@ impl Checkbox {
 }
 
 impl Component for Checkbox {
-    fn draw(&mut self, origine: Vec2, settings: &Settings, state: &mut State) -> Vec2 {
+    fn draw(&mut self, origine: Vec2, settings: &Settings, _: &mut State) -> Vec2 {
         let mouse_pos = mouse_position().into();
         let rect = Rect::new(origine.x, origine.y, settings.width, settings.height);
         let hover = rect.contains(mouse_pos);
