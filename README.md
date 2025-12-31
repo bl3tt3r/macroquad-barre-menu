@@ -249,8 +249,6 @@ loop {
 
 ## 📜 Licence
 
-Ce projet est sous licence **MIT**.
-Vous êtes libre d'utiliser, modifier, distribuer, même commercialement.
-Aucune garantie, aucun support n'est fourni.
-Voir le fichier [LICENSE](./LICENSE) pour les détails.
-
+Ce projet est distribué sous **Apache License 2.0**. Vous pouvez utiliser, modifier, distribuer et vendre le logiciel, sous réserve d’indiquer les changements, conserver les avis d’attribution et respecter la licence.
+Aucune garantie ni obligation de support n’est fournie.
+Voir le fichier [`LICENSE`](./LICENSE) pour le texte complet.
