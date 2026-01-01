@@ -1,7 +1,16 @@
 [package]
-name = "macroquad_xp_barre_menu"
+name = "macroquad-menubar"
 version = "0.1.0"
+authors = ["bl3tt3r"]
 edition = "2024"
+description = "Retro Windows XP-style menu bar for Macroquad games and tools"
+repository = "https://github.com/bl3tt3r/macroquad-menubar"
+homepage = "https://github.com/bl3tt3r/macroquad-menubar"
+documentation = "https://docs.rs/macroquad-menubar"
+readme = "README.md"
+keywords = ["macroquad", "ui", "menu", "menubar", "gamedev"]
+categories = ["game-development", "gui"]
+license = "Apache-2.0"
 
 [dependencies]
-macroquad = "0.4.14"
+macroquad = "0.4"

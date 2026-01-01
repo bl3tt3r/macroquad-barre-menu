@@ -1,13 +1,13 @@
 
-# macroquad_xp_barre_menu
+# macroquad-menubar
 
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 ![Rust Edition](https://img.shields.io/badge/edition-2024-orange)
-![Macroquad](https://img.shields.io/badge/macroquad-0.4.14-success)
+![Macroquad](https://img.shields.io/badge/macroquad-0.4.x-success)
 ![Made with Rust](https://img.shields.io/badge/Made%20with-Rust-000000?logo=rust)
 
-> Barre de menu style Windows XP pour Macroquad — Simple, légère et nostalgique ! 🪟
+> Barre de menu pour Macroquad — Simple, légère et style **Windows XP par défaut** pour plus de nostalgie ! 🪟
 
 ![Fenetre avec style windows XP par defaut](docs/default.png)
 
@@ -15,7 +15,7 @@
 
 ##  🎯 À propos
 
-macroquad_xp_barre_menu est une bibliothèque Rust qui fournit une barre de menu style Windows XP pour vos jeux et applications Macroquad. Elle s'intègre parfaitement dans la boucle de rendu immediate-mode de Macroquad et propose un style rétro authentique avec la police Tahoma et les couleurs classiques de Windows XP.
+**macroquad-menubar** est une bibliothèque Rust qui fournit une barre de menu pour vos jeux et applications Macroquad. Elle s'intègre parfaitement dans la boucle de rendu immediate-mode de Macroquad et propose un style rétro authentique par défaut avec la police Tahoma et les couleurs classiques de **Windows XP**.
 
 Idéale pour :
 
@@ -34,7 +34,7 @@ Idéale pour :
     - Checkbox : interrupteur on/off
     - Radio : sélection exclusive
     - Separator : séparateur visuel
-- ✅ Style Windows XP authentique par défaut (police Tahoma, couleurs fidèles)
+- ✅ Style **Windows XP authentique par défaut** (police Tahoma, couleurs fidèles)
 - ✅ Entièrement personnalisable (couleurs, tailles, polices)
 - ✅ Multiplateforme : Windows, Linux, macOS, WASM, Android, iOS
 - ✅ Zero dependencies en dehors de Macroquad
@@ -48,8 +48,8 @@ Ajoutez cette dépendance à votre `Cargo.toml` :
 
 ```toml
 [dependencies]
-macroquad = "0.4.14"
-macroquad_xp_barre_menu = { git = "https://github.com/bl3tt3r/macroquad-barre-menu" }
+macroquad = "0.4"
+macroquad-menubar = { git = "https://github.com/bl3tt3r/macroquad-barre-menu" }
 ```
 
 > 💡 Note : Le package n'est pas encore publié sur crates.io. Utilisez la dépendance Git en attendant.
@@ -60,7 +60,7 @@ macroquad_xp_barre_menu = { git = "https://github.com/bl3tt3r/macroquad-barre-me
 
 ```rust
 use macroquad::prelude::*;
-use macroquad_xp_barre_menu::*;
+use macroquad_menubar::*;
 
 #[macroquad::main("Menu Demo")]
 async fn main() {
@@ -130,7 +130,7 @@ cargo run --example style
 
 ## ✅ Compatibilité
 
-- Macroquad **0.4.14+**
+- Macroquad **0.4.x**
 - Plateformes : **Windows, Linux, macOS, WASM, Android, iOS** (héritées de Macroquad).
 
 ---
@@ -141,7 +141,7 @@ Le style par défaut utilise le thème Windows XP, mais vous pouvez créer votre
 
 ```rust
 use macroquad::prelude::*;
-use macroquad_xp_barre_menu::*;
+use macroquad_menubar::*;
 
 #[macroquad::main("Custom Theme")]
 async fn main() {
@@ -239,6 +239,8 @@ Aucune garantie ni obligation de support n’est fournie.
 Voir le fichier [`LICENSE`](./LICENSE) pour le texte complet.
 
 ---
+
+
 
 <div align="center">
 Si ce projet vous est utile, n'oubliez pas de lui donner une ⭐ !

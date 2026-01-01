@@ -1,5 +1,5 @@
 use macroquad::prelude::*;
-use macroquad_xp_barre_menu::*;
+use macroquad_menubar::*;
 
 #[macroquad::main("Menu Demo")]
 async fn main() {
